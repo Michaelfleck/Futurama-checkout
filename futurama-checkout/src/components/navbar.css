@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between groups */
+    align-items: center; /* Vertically center items */
+    height: 80px; /* Adjust height based on logo size */
+    background-color: #242424;
+    border-bottom: 1px solid #6c6c6c;
+    position: relative; /* Allow for absolute positioning */
+    padding: 0 20px;
+}
+
+.navbar-logo {
+    position: absolute; /* Allow centering within navbar */
+    left: 50%; /* Move to the horizontal center */
+    transform: translateX(-50%); /* Adjust for element width */
+    height: 100px; /* Adjust size of the logo */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+.links {
+    display: flex;
+    gap: 16px; /* Space between "Shop" and "Cart" */
+    align-items: center; /* Vertically center links and cart icon */
+    margin-left: auto; /* Push links to the far right */
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #00b7ff;
+}
+
+.links svg {
+    vertical-align: middle; /* Align cart icon with text */
+}
