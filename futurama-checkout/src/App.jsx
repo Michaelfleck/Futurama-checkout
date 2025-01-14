@@ -1,9 +1,8 @@
-import { useState } from 'react'
+// import { useState } from 'react'
+// import React from 'react'
+// import ReactDOM from 'react-dom/client'
 
 import './App.css'
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import { Navbar } from './components/navbar'
 import Shop from './pages/shop/shop'
